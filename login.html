@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Bites – Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top" class="top"></div>
+  <section class="login">
+    <form id="lform" class="lbox" novalidate>
+      <p class="eyebrow">Campus Bites · Student Cafeteria</p>
+      <h1>Welcome</h1>
+      <div class="seg" id="lmode"><button type="button" class="on" data-act="mode" data-v="login">Login</button><button type="button" data-act="mode" data-v="reg">Register</button></div>
+      <label class="rg">Full name<input name="name" autocomplete="name"></label>
+      <label>Email<input name="email" type="email" autocomplete="email"></label>
+      <label>Password<input name="pass" type="password" autocomplete="current-password"></label>
+      <p class="err" id="lerr"></p>
+      <button class="btn big" id="lgo">Login</button>
+      <p class="demo">Demo: student@campus.in / student123</p>
+      <p class="demo"><a href="index.html">← Back to menu</a></p>
+    </form>
+  </section>
+  <script src="data.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

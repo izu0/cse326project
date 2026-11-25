@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Bites – Menu</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top" class="top"></div>
+  <header class="hero">
+    <div class="wrap"><div class="txt">
+      <p class="eyebrow">Campus Bites · Student Cafeteria</p>
+      <h1>Today's Menu</h1>
+      <p id="today"></p>
+      <p class="hint">Browse freely. Log in when you are ready to order, then pick it up at your break.</p>
+    </div></div>
+  </header>
+
+  <div class="quote" aria-live="polite"><div class="wrap"><p id="qtext"></p><small id="qby"></small></div></div>
+
+  <div class="wrap">
+    <section class="offers" aria-label="Offers"><h2>Offers for you</h2><div id="offers" class="offer-row"></div></section>
+    <section class="week" aria-label="Weekly cuisine timetable"><h2>This week's cuisines</h2><div id="week" class="weekrow"></div></section>
+    <div class="controls">
+      <div class="tabs" id="tabs" role="tablist"></div>
+      <div class="seg" id="diet" aria-label="Diet filter"></div>
+    </div>
+    <p class="hours" id="hours"></p>
+    <div id="menu" class="grid"></div>
+  </div>
+
+  <div class="wrap">
+    <section class="virtues"><h2>Why Campus Bites</h2><div class="vrow" id="virtues"></div></section>
+    <section class="views"><h2>Student views</h2><p class="sample">Sample reviews written for this demo.</p><div class="vrow" id="views"></div></section>
+  </div>
+
+  <a href="order.html" id="bar" class="bar hidden"></a>
+  <footer class="foot">College demo project</footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
